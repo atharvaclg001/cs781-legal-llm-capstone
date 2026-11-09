@@ -1,0 +1,12 @@
+   # This file also marks the project root: every notebook walks up from its folder
+   # until it finds .gitignore and then uses <root>/data, <root>/checkpoints, <root>/src.
+   .venv/
+   __pycache__/
+   .ipynb_checkpoints/
+   data/*
+   !data/tokenizer/
+   checkpoints/
+   experiments/
+   *.pt
+   *.npz
+   *.zip
