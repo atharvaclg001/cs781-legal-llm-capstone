@@ -1,0 +1,15 @@
+# Python 3.12, Windows laptop with an NVIDIA RTX 4050 (6 GB). Install PyTorch for your CUDA version first:
+#   https://pytorch.org/get-started/locally/
+torch==2.14.0
+tokenizers==0.23.2
+transformers==5.17.0      # only used by bert_score (Phase 1 / Phase 6 evaluation)
+bert_score==0.3.13
+huggingface_hub==1.33.0
+numpy==2.5.2
+pandas==3.0.6
+tqdm==4.70.1
+matplotlib==3.11.2
+ijson==3.5.1
+safetensors==0.8.0
+accelerate==1.15.0
+ipykernel
